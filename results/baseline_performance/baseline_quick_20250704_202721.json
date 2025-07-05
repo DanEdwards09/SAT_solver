@@ -1,0 +1,396 @@
+{
+  "timestamp": "20250704_202721",
+  "suite_name": "quick",
+  "solver_config": "baseline_dpll",
+  "total_tests": 5,
+  "results": [
+    {
+      "test_name": "Small_random_10v_3c",
+      "graph_info": {
+        "type": "Small_random_10v_3c",
+        "vertex_count": 10,
+        "edge_count": 15,
+        "colors": 3,
+        "vertex_list": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "edges": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            9
+          ]
+        ],
+        "edge_density": 0.3333333333333333
+      },
+      "cnf_size": 85,
+      "solve_time": 0.002299785614013672,
+      "is_satisfiable": true,
+      "solution_valid": true,
+      "solver_stats": {
+        "decisions": 4,
+        "unit_propagations": 26,
+        "backtracks": 0,
+        "conflicts": 0
+      },
+      "timed_out": false,
+      "error_message": ""
+    },
+    {
+      "test_name": "Small_grid_3x3_3c",
+      "graph_info": {
+        "type": "Small_grid_3x3_3c",
+        "vertex_count": 9,
+        "edge_count": 12,
+        "colors": 3,
+        "vertex_list": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "edge_density": 0.3333333333333333
+      },
+      "cnf_size": 72,
+      "solve_time": 0.0018417835235595703,
+      "is_satisfiable": true,
+      "solution_valid": true,
+      "solver_stats": {
+        "decisions": 9,
+        "unit_propagations": 18,
+        "backtracks": 0,
+        "conflicts": 0
+      },
+      "timed_out": false,
+      "error_message": ""
+    },
+    {
+      "test_name": "Small_cycle_8v_3c",
+      "graph_info": {
+        "type": "Small_cycle_8v_3c",
+        "vertex_count": 8,
+        "edge_count": 8,
+        "colors": 3,
+        "vertex_list": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            0
+          ]
+        ],
+        "edge_density": 0.2857142857142857
+      },
+      "cnf_size": 56,
+      "solve_time": 0.0013818740844726562,
+      "is_satisfiable": true,
+      "solution_valid": true,
+      "solver_stats": {
+        "decisions": 8,
+        "unit_propagations": 16,
+        "backtracks": 0,
+        "conflicts": 0
+      },
+      "timed_out": false,
+      "error_message": ""
+    },
+    {
+      "test_name": "Small_star_10v_2c",
+      "graph_info": {
+        "type": "Small_star_10v_2c",
+        "vertex_count": 10,
+        "edge_count": 9,
+        "colors": 2,
+        "vertex_list": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            0,
+            9
+          ]
+        ],
+        "edge_density": 0.2
+      },
+      "cnf_size": 38,
+      "solve_time": 0.0004241466522216797,
+      "is_satisfiable": true,
+      "solution_valid": true,
+      "solver_stats": {
+        "decisions": 1,
+        "unit_propagations": 19,
+        "backtracks": 0,
+        "conflicts": 0
+      },
+      "timed_out": false,
+      "error_message": ""
+    },
+    {
+      "test_name": "Small_complete_5v_5c",
+      "graph_info": {
+        "type": "Small_complete_5v_5c",
+        "vertex_count": 5,
+        "edge_count": 10,
+        "colors": 5,
+        "vertex_list": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "edge_density": 1.0
+      },
+      "cnf_size": 105,
+      "solve_time": 0.0016350746154785156,
+      "is_satisfiable": true,
+      "solution_valid": true,
+      "solver_stats": {
+        "decisions": 4,
+        "unit_propagations": 21,
+        "backtracks": 0,
+        "conflicts": 0
+      },
+      "timed_out": false,
+      "error_message": ""
+    }
+  ]
+}
