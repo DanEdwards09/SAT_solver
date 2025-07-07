@@ -1,7 +1,8 @@
+# src/solver/__init__.py
 """
 SAT Solver Implementations
 """
 from .dpll_solver import DPLLSolver
-from .enhanced_cdcl_solver import EnhancedCDCLSolver
+from .modular_enhancements import EnhancedCDCLSolver
 
 __all__ = ['DPLLSolver', 'EnhancedCDCLSolver']

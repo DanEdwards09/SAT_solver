@@ -1,9 +1,11 @@
-# scripts/compare_solvers.py
+# scripts/comparison_script.py
 """
 Direct Comparison Script for Baseline vs Enhanced Solvers
 
 This script provides a simple way to directly compare your existing DPLL solver
 with the enhanced graph-aware solver on specific test cases.
+
+FIXED VERSION: All imports corrected to match actual file names
 """
 
 import sys
@@ -15,7 +17,7 @@ from typing import List, Tuple
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from src.solver.dpll_solver import DPLLSolver
-from src.solver.enhanced_cdcl_solver import EnhancedCDCLSolver
+from src.solver.modular_enhancements import EnhancedCDCLSolver  # FIXED import
 from src.graph.generators import generate_random_graph, generate_grid_graph, generate_cycle_graph
 from src.graph.encoders import create_graph_coloring_cnf, decode_graph_coloring_solution, validate_graph_coloring
 
@@ -197,6 +199,8 @@ def run_test_suite():
             
         except Exception as e:
             print(f"ERROR in test case {test_name}: {e}")
+            import traceback
+            traceback.print_exc()
             continue
     
     # Print overall summary

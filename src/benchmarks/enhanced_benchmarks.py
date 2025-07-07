@@ -20,7 +20,7 @@ from .test_suites import *
 
 # Import solvers for comparison
 from ..solver.dpll_solver import DPLLSolver
-from ..solver.enhanced_cdcl_solver import EnhancedCDCLSolver
+from ..solver.modular_enhancements import EnhancedCDCLSolver
 
 
 @dataclass

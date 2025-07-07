@@ -1,8 +1,9 @@
+# src/benchmarks/__init__.py
 """
 Benchmarking and Testing Framework
 """
 from .benchmark_runner import BenchmarkRunner, BenchmarkResult
-from .enhanced_benchmark_runner import ExperimentalEvaluator
+from .enhanced_benchmarks import ExperimentalEvaluator
 from .test_suites import *
 
 __all__ = [
